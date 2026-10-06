@@ -1,0 +1,36 @@
+name: Weekly health and heartbeat
+
+on:
+  schedule:
+    - cron: "33 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Check live site
+        run: |
+          BASE="https://freelancekit-tools.pages.dev"
+          for p in "/" "/tools/" "/tools/invoice-generator/" "/tools/project-price-calculator/" "/about.html" "/privacy.html" "/terms.html" "/sitemap.xml"; do
+            echo "Checking $BASE$p"
+            curl -fsSL --retry 3 --max-time 30 "$BASE$p" >/dev/null
+          done
+      - name: Run smoke tests
+        run: node tests/verify.cjs && node tests/smoke.cjs
+      - name: Write heartbeat
+        run: |
+          mkdir -p .autopilot
+          date -u +%Y-%m-%dT%H:%M:%SZ > .autopilot/heartbeat.txt
+      - name: Commit heartbeat
+        run: |
+          git config user.name "FreelanceKit Health Check"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .autopilot/heartbeat.txt
+          git commit -m "Health: weekly heartbeat" || echo "Heartbeat unchanged."
+          git push

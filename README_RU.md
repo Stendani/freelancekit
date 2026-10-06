@@ -1,25 +1,5 @@
-# FreelanceKit — запуск на Mac
+# FreelanceKit 3.1.0
 
-Это первая локальная версия проекта. Она работает без сервера и без платных API.
+Бесплатный набор инструментов для фрилансеров: pricing → proposal → invoice → client workflow.
 
-## Самый простой запуск
-
-1. Распакуйте архив.
-2. Откройте папку `freelancekit`.
-3. Дважды нажмите `index.html`.
-4. Сайт откроется в браузере.
-
-## Запуск через Terminal
-
-Если хотите запускать через локальный сервер:
-
-```bash
-cd ~/Downloads/freelancekit
-python3 -m http.server 8000
-```
-
-Потом откройте в браузере:
-
-http://localhost:8000
-
-Остановить сервер: нажать `Control + C` в Terminal.
+Хостинг: Cloudflare Pages. Исходники: GitHub. Переводы: локальные файлы в `data/locales/`. Автопилот: GitHub Actions.

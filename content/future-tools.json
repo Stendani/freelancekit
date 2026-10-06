@@ -1,0 +1,722 @@
+[
+  {
+    "slug": "commission-calculator",
+    "title": "Commission Calculator",
+    "category": "Money",
+    "description": "Calculate commission from sales and a commission rate.",
+    "i18n": {
+      "en": {
+        "title": "Commission Calculator",
+        "description": "Calculate commission from sales and a commission rate."
+      },
+      "ru": {
+        "title": "Калькулятор комиссии",
+        "description": "Рассчитайте комиссию по продажам и ставке комиссии."
+      },
+      "es": {
+        "title": "Calculadora de comisiones",
+        "description": "Calcula la comisión a partir de las ventas y la tasa de comisión."
+      },
+      "fr": {
+        "title": "Calculateur de commission",
+        "description": "Calculez la commission à partir des ventes et du taux de commission."
+      },
+      "de": {
+        "title": "Provisionsrechner",
+        "description": "Berechnen Sie Provisionen aus Umsatz und Provisionssatz."
+      },
+      "pt": {
+        "title": "Calculadora de comissão",
+        "description": "Calcule a comissão a partir das vendas e da taxa de comissão."
+      },
+      "it": {
+        "title": "Calcolatore delle commissioni",
+        "description": "Calcola la commissione in base alle vendite e alla percentuale di commissione."
+      },
+      "pl": {
+        "title": "Kalkulator prowizji",
+        "description": "Oblicz prowizję na podstawie sprzedaży i stawki prowizji."
+      }
+    }
+  },
+  {
+    "slug": "client-capacity-calculator",
+    "title": "Client Capacity Calculator",
+    "category": "Business",
+    "description": "Estimate how many clients you can handle at your available hours.",
+    "i18n": {
+      "en": {
+        "title": "Client Capacity Calculator",
+        "description": "Estimate how many clients you can handle at your available hours."
+      },
+      "ru": {
+        "title": "Калькулятор вместимости по клиентам",
+        "description": "Оцените, сколько клиентов вы сможете вести при доступном количестве часов."
+      },
+      "es": {
+        "title": "Calculadora de capacidad de clientes",
+        "description": "Estima cuántos clientes puedes gestionar con tus horas disponibles."
+      },
+      "fr": {
+        "title": "Calculateur de capacité clients",
+        "description": "Estimez le nombre de clients que vous pouvez gérer avec vos heures disponibles."
+      },
+      "de": {
+        "title": "Kundenkapazitätsrechner",
+        "description": "Schätzen Sie, wie viele Kunden Sie mit Ihren verfügbaren Stunden betreuen können."
+      },
+      "pt": {
+        "title": "Calculadora de capacidade de clientes",
+        "description": "Estime quantos clientes consegue gerir com as horas disponíveis."
+      },
+      "it": {
+        "title": "Calcolatore della capacità clienti",
+        "description": "Stima quanti clienti puoi gestire con le ore disponibili."
+      },
+      "pl": {
+        "title": "Kalkulator liczby klientów",
+        "description": "Oszacuj, ilu klientów możesz obsłużyć przy dostępnej liczbie godzin."
+      }
+    }
+  },
+  {
+    "slug": "project-profit-calculator",
+    "title": "Project Profit Calculator",
+    "category": "Business",
+    "description": "Estimate project profit after costs and unpaid time.",
+    "i18n": {
+      "en": {
+        "title": "Project Profit Calculator",
+        "description": "Estimate project profit after costs and unpaid time."
+      },
+      "ru": {
+        "title": "Калькулятор прибыли проекта",
+        "description": "Оцените прибыль проекта после расходов и неоплачиваемого времени."
+      },
+      "es": {
+        "title": "Calculadora de beneficio del proyecto",
+        "description": "Estima el beneficio del proyecto después de costes y tiempo no facturable."
+      },
+      "fr": {
+        "title": "Calculateur de bénéfice du projet",
+        "description": "Estimez le bénéfice du projet après les coûts et le temps non facturable."
+      },
+      "de": {
+        "title": "Projektgewinn-Rechner",
+        "description": "Schätzen Sie den Projektgewinn nach Kosten und unbezahlter Zeit."
+      },
+      "pt": {
+        "title": "Calculadora de lucro do projeto",
+        "description": "Estime o lucro do projeto após custos e tempo não faturável."
+      },
+      "it": {
+        "title": "Calcolatore del profitto del progetto",
+        "description": "Stima il profitto del progetto dopo costi e tempo non fatturabile."
+      },
+      "pl": {
+        "title": "Kalkulator zysku z projektu",
+        "description": "Oszacuj zysk z projektu po uwzględnieniu kosztów i niepłatnego czasu."
+      }
+    }
+  },
+  {
+    "slug": "rate-increase-impact-calculator",
+    "title": "Rate Increase Impact Calculator",
+    "category": "Money",
+    "description": "Compare income before and after a rate increase.",
+    "i18n": {
+      "en": {
+        "title": "Rate Increase Impact Calculator",
+        "description": "Compare income before and after a rate increase."
+      },
+      "ru": {
+        "title": "Калькулятор влияния повышения ставки",
+        "description": "Сравните доход до и после повышения ставки."
+      },
+      "es": {
+        "title": "Calculadora del impacto de subir tarifas",
+        "description": "Compara los ingresos antes y después de subir tu tarifa."
+      },
+      "fr": {
+        "title": "Calculateur d’impact d’une hausse de tarif",
+        "description": "Comparez vos revenus avant et après une hausse de tarif."
+      },
+      "de": {
+        "title": "Auswirkung einer Ratenerhöhung",
+        "description": "Vergleichen Sie Ihr Einkommen vor und nach einer Erhöhung des Stundensatzes."
+      },
+      "pt": {
+        "title": "Calculadora do impacto do aumento de tarifa",
+        "description": "Compare o rendimento antes e depois de aumentar a sua tarifa."
+      },
+      "it": {
+        "title": "Calcolatore dell’impatto dell’aumento tariffa",
+        "description": "Confronta il reddito prima e dopo l’aumento della tariffa."
+      },
+      "pl": {
+        "title": "Kalkulator wpływu podwyżki stawki",
+        "description": "Porównaj przychód przed i po podwyżce stawki."
+      }
+    }
+  },
+  {
+    "slug": "sick-day-buffer-calculator",
+    "title": "Sick Day Buffer Calculator",
+    "category": "Pricing",
+    "description": "Build planned sick days into an annual target rate.",
+    "i18n": {
+      "en": {
+        "title": "Sick Day Buffer Calculator",
+        "description": "Build planned sick days into an annual target rate."
+      },
+      "ru": {
+        "title": "Калькулятор запаса на больничные",
+        "description": "Учтите запланированные больничные дни в целевой годовой ставке."
+      },
+      "es": {
+        "title": "Calculadora de margen por días de enfermedad",
+        "description": "Incluye los días de enfermedad previstos en tu tarifa anual objetivo."
+      },
+      "fr": {
+        "title": "Calculateur de marge pour jours de maladie",
+        "description": "Intégrez les jours de maladie prévus dans votre tarif annuel cible."
+      },
+      "de": {
+        "title": "Pufferrechner für Krankheitstage",
+        "description": "Berücksichtigen Sie geplante Krankheitstage in Ihrem jährlichen Zielstundensatz."
+      },
+      "pt": {
+        "title": "Calculadora de margem para dias de doença",
+        "description": "Inclua os dias de doença planeados na sua tarifa anual alvo."
+      },
+      "it": {
+        "title": "Calcolatore del margine per giorni di malattia",
+        "description": "Considera i giorni di malattia previsti nella tariffa annuale obiettivo."
+      },
+      "pl": {
+        "title": "Kalkulator zapasu na dni chorobowe",
+        "description": "Uwzględnij planowane dni chorobowe w docelowej stawce rocznej."
+      }
+    }
+  },
+  {
+    "slug": "holiday-buffer-calculator",
+    "title": "Holiday Buffer Calculator",
+    "category": "Pricing",
+    "description": "Build planned holidays into an annual target rate.",
+    "i18n": {
+      "en": {
+        "title": "Holiday Buffer Calculator",
+        "description": "Build planned holidays into an annual target rate."
+      },
+      "ru": {
+        "title": "Калькулятор запаса на отпуск",
+        "description": "Учтите запланированные отпуска в целевой годовой ставке."
+      },
+      "es": {
+        "title": "Calculadora de margen por vacaciones",
+        "description": "Incluye las vacaciones previstas en tu tarifa anual objetivo."
+      },
+      "fr": {
+        "title": "Calculateur de marge pour congés",
+        "description": "Intégrez les congés prévus dans votre tarif annuel cible."
+      },
+      "de": {
+        "title": "Urlaubspuffer-Rechner",
+        "description": "Berücksichtigen Sie geplante Urlaubstage in Ihrem jährlichen Zielstundensatz."
+      },
+      "pt": {
+        "title": "Calculadora de margem para férias",
+        "description": "Inclua as férias planeadas na sua tarifa anual alvo."
+      },
+      "it": {
+        "title": "Calcolatore del margine ferie",
+        "description": "Considera le ferie previste nella tariffa annuale obiettivo."
+      },
+      "pl": {
+        "title": "Kalkulator zapasu na urlop",
+        "description": "Uwzględnij planowane urlopy w docelowej stawce rocznej."
+      }
+    }
+  },
+  {
+    "slug": "monthly-client-target-calculator",
+    "title": "Monthly Client Target Calculator",
+    "category": "Business",
+    "description": "Estimate how many clients you need to hit a monthly revenue goal.",
+    "i18n": {
+      "en": {
+        "title": "Monthly Client Target Calculator",
+        "description": "Estimate how many clients you need to hit a monthly revenue goal."
+      },
+      "ru": {
+        "title": "Калькулятор цели по клиентам на месяц",
+        "description": "Оцените, сколько клиентов нужно для достижения месячной выручки."
+      },
+      "es": {
+        "title": "Calculadora de clientes objetivo al mes",
+        "description": "Estima cuántos clientes necesitas para alcanzar una meta mensual de ingresos."
+      },
+      "fr": {
+        "title": "Calculateur d’objectif clients mensuel",
+        "description": "Estimez le nombre de clients nécessaires pour atteindre un objectif mensuel de revenus."
+      },
+      "de": {
+        "title": "Monatlicher Kundenziel-Rechner",
+        "description": "Schätzen Sie, wie viele Kunden Sie für ein monatliches Umsatzziel benötigen."
+      },
+      "pt": {
+        "title": "Calculadora de meta mensal de clientes",
+        "description": "Estime quantos clientes precisa para atingir uma meta mensal de receita."
+      },
+      "it": {
+        "title": "Calcolatore dell’obiettivo clienti mensile",
+        "description": "Stima quanti clienti servono per raggiungere un obiettivo mensile di ricavi."
+      },
+      "pl": {
+        "title": "Kalkulator miesięcznego celu klientów",
+        "description": "Oszacuj, ilu klientów potrzebujesz, aby osiągnąć miesięczny cel przychodów."
+      }
+    }
+  },
+  {
+    "slug": "weekly-revenue-target-calculator",
+    "title": "Weekly Revenue Target Calculator",
+    "category": "Business",
+    "description": "Turn a monthly target into a weekly revenue goal.",
+    "i18n": {
+      "en": {
+        "title": "Weekly Revenue Target Calculator",
+        "description": "Turn a monthly target into a weekly revenue goal."
+      },
+      "ru": {
+        "title": "Калькулятор недельной цели по выручке",
+        "description": "Переведите месячную цель в недельную цель по выручке."
+      },
+      "es": {
+        "title": "Calculadora de objetivo semanal de ingresos",
+        "description": "Convierte un objetivo mensual en una meta semanal de ingresos."
+      },
+      "fr": {
+        "title": "Calculateur d’objectif de revenus hebdomadaire",
+        "description": "Transformez un objectif mensuel en objectif hebdomadaire de revenus."
+      },
+      "de": {
+        "title": "Wöchentliches Umsatzziel",
+        "description": "Übertragen Sie ein Monatsziel auf ein wöchentliches Umsatzziel."
+      },
+      "pt": {
+        "title": "Calculadora de meta semanal de receita",
+        "description": "Transforme uma meta mensal numa meta semanal de receita."
+      },
+      "it": {
+        "title": "Calcolatore dell’obiettivo di ricavi settimanale",
+        "description": "Trasforma un obiettivo mensile in un obiettivo settimanale di ricavi."
+      },
+      "pl": {
+        "title": "Kalkulator tygodniowego celu przychodów",
+        "description": "Przelicz miesięczny cel na tygodniowy cel przychodów."
+      }
+    }
+  },
+  {
+    "slug": "retainer-capacity-calculator",
+    "title": "Retainer Capacity Calculator",
+    "category": "Business",
+    "description": "Estimate how many retainers fit into your billable capacity.",
+    "i18n": {
+      "en": {
+        "title": "Retainer Capacity Calculator",
+        "description": "Estimate how many retainers fit into your billable capacity."
+      },
+      "ru": {
+        "title": "Калькулятор вместимости ретейнеров",
+        "description": "Оцените, сколько ретейнеров помещается в вашу оплачиваемую загрузку."
+      },
+      "es": {
+        "title": "Calculadora de capacidad de retainers",
+        "description": "Estima cuántos retainers caben en tu capacidad facturable."
+      },
+      "fr": {
+        "title": "Calculateur de capacité en forfaits récurrents",
+        "description": "Estimez combien de forfaits récurrents tiennent dans votre capacité facturable."
+      },
+      "de": {
+        "title": "Retainer-Kapazitätsrechner",
+        "description": "Schätzen Sie, wie viele Retainer in Ihre abrechenbare Kapazität passen."
+      },
+      "pt": {
+        "title": "Calculadora de capacidade de retainers",
+        "description": "Estime quantos retainers cabem na sua capacidade faturável."
+      },
+      "it": {
+        "title": "Calcolatore della capacità dei retainer",
+        "description": "Stima quanti retainer rientrano nella tua capacità fatturabile."
+      },
+      "pl": {
+        "title": "Kalkulator pojemności retainerów",
+        "description": "Oszacuj, ile retainerów mieści się w Twojej rozliczanej przepustowości."
+      }
+    }
+  },
+  {
+    "slug": "proposal-conversion-calculator",
+    "title": "Proposal Conversion Calculator",
+    "category": "Business",
+    "description": "Measure proposal win rate and expected wins.",
+    "i18n": {
+      "en": {
+        "title": "Proposal Conversion Calculator",
+        "description": "Measure proposal win rate and expected wins."
+      },
+      "ru": {
+        "title": "Калькулятор конверсии предложений",
+        "description": "Измерьте долю выигранных предложений и ожидаемое число побед."
+      },
+      "es": {
+        "title": "Calculadora de conversión de propuestas",
+        "description": "Mide la tasa de éxito de tus propuestas y las victorias esperadas."
+      },
+      "fr": {
+        "title": "Calculateur de conversion des propositions",
+        "description": "Mesurez votre taux de réussite et le nombre de gains attendus."
+      },
+      "de": {
+        "title": "Angebots-Conversion-Rechner",
+        "description": "Messen Sie Erfolgsquote und erwartete gewonnene Projekte."
+      },
+      "pt": {
+        "title": "Calculadora de conversão de propostas",
+        "description": "Meça a taxa de sucesso das propostas e as vitórias esperadas."
+      },
+      "it": {
+        "title": "Calcolatore della conversione delle proposte",
+        "description": "Misura il tasso di successo delle proposte e le vittorie previste."
+      },
+      "pl": {
+        "title": "Kalkulator konwersji ofert",
+        "description": "Zmierz skuteczność ofert i przewidywaną liczbę wygranych projektów."
+      }
+    }
+  },
+  {
+    "slug": "average-order-value-calculator",
+    "title": "Average Project Value Calculator",
+    "category": "Business",
+    "description": "Calculate average project value from revenue and project count.",
+    "i18n": {
+      "en": {
+        "title": "Average Project Value Calculator",
+        "description": "Calculate average project value from revenue and project count."
+      },
+      "ru": {
+        "title": "Калькулятор средней стоимости проекта",
+        "description": "Рассчитайте среднюю стоимость проекта по выручке и количеству проектов."
+      },
+      "es": {
+        "title": "Calculadora del valor medio del proyecto",
+        "description": "Calcula el valor medio del proyecto a partir de ingresos y número de proyectos."
+      },
+      "fr": {
+        "title": "Calculateur de valeur moyenne d’un projet",
+        "description": "Calculez la valeur moyenne d’un projet à partir du revenu et du nombre de projets."
+      },
+      "de": {
+        "title": "Rechner für durchschnittlichen Projektwert",
+        "description": "Berechnen Sie den durchschnittlichen Projektwert aus Umsatz und Projektanzahl."
+      },
+      "pt": {
+        "title": "Calculadora do valor médio do projeto",
+        "description": "Calcule o valor médio do projeto a partir da receita e do número de projetos."
+      },
+      "it": {
+        "title": "Calcolatore del valore medio del progetto",
+        "description": "Calcola il valore medio del progetto in base a ricavi e numero di progetti."
+      },
+      "pl": {
+        "title": "Kalkulator średniej wartości projektu",
+        "description": "Oblicz średnią wartość projektu na podstawie przychodu i liczby projektów."
+      }
+    }
+  },
+  {
+    "slug": "lead-to-client-calculator",
+    "title": "Lead To Client Calculator",
+    "category": "Business",
+    "description": "Estimate clients from leads and conversion rate.",
+    "i18n": {
+      "en": {
+        "title": "Lead To Client Calculator",
+        "description": "Estimate clients from leads and conversion rate."
+      },
+      "ru": {
+        "title": "Калькулятор конверсии лидов в клиентов",
+        "description": "Оцените число клиентов по количеству лидов и конверсии."
+      },
+      "es": {
+        "title": "Calculadora de leads a clientes",
+        "description": "Estima clientes a partir de leads y tasa de conversión."
+      },
+      "fr": {
+        "title": "Calculateur prospects vers clients",
+        "description": "Estimez le nombre de clients à partir des prospects et du taux de conversion."
+      },
+      "de": {
+        "title": "Lead-zu-Kunde-Rechner",
+        "description": "Schätzen Sie Kunden aus Leads und Konversionsrate."
+      },
+      "pt": {
+        "title": "Calculadora de leads para clientes",
+        "description": "Estime clientes a partir de leads e da taxa de conversão."
+      },
+      "it": {
+        "title": "Calcolatore da lead a clienti",
+        "description": "Stima i clienti a partire da lead e tasso di conversione."
+      },
+      "pl": {
+        "title": "Kalkulator leadów na klientów",
+        "description": "Oszacuj liczbę klientów na podstawie leadów i współczynnika konwersji."
+      }
+    }
+  },
+  {
+    "slug": "pipeline-value-calculator",
+    "title": "Pipeline Value Calculator",
+    "category": "Business",
+    "description": "Estimate expected revenue from your sales pipeline.",
+    "i18n": {
+      "en": {
+        "title": "Pipeline Value Calculator",
+        "description": "Estimate expected revenue from your sales pipeline."
+      },
+      "ru": {
+        "title": "Калькулятор стоимости воронки",
+        "description": "Оцените ожидаемую выручку из вашей воронки продаж."
+      },
+      "es": {
+        "title": "Calculadora del valor del pipeline",
+        "description": "Estima los ingresos esperados de tu pipeline de ventas."
+      },
+      "fr": {
+        "title": "Calculateur de valeur du pipeline",
+        "description": "Estimez les revenus attendus de votre pipeline commercial."
+      },
+      "de": {
+        "title": "Pipeline-Wert-Rechner",
+        "description": "Schätzen Sie den erwarteten Umsatz aus Ihrer Vertriebspipeline."
+      },
+      "pt": {
+        "title": "Calculadora do valor do pipeline",
+        "description": "Estime a receita esperada do seu pipeline de vendas."
+      },
+      "it": {
+        "title": "Calcolatore del valore della pipeline",
+        "description": "Stima i ricavi attesi dalla tua pipeline di vendita."
+      },
+      "pl": {
+        "title": "Kalkulator wartości pipeline",
+        "description": "Oszacuj oczekiwany przychód z lejka sprzedażowego."
+      }
+    }
+  },
+  {
+    "slug": "client-acquisition-cost-calculator",
+    "title": "Client Acquisition Cost Calculator",
+    "category": "Business",
+    "description": "Estimate acquisition cost from marketing spend and new clients.",
+    "i18n": {
+      "en": {
+        "title": "Client Acquisition Cost Calculator",
+        "description": "Estimate acquisition cost from marketing spend and new clients."
+      },
+      "ru": {
+        "title": "Калькулятор стоимости привлечения клиента",
+        "description": "Оцените стоимость привлечения по расходам на маркетинг и новым клиентам."
+      },
+      "es": {
+        "title": "Calculadora del coste de adquisición de clientes",
+        "description": "Estima el coste de adquisición a partir del gasto en marketing y los nuevos clientes."
+      },
+      "fr": {
+        "title": "Calculateur du coût d’acquisition client",
+        "description": "Estimez le coût d’acquisition à partir des dépenses marketing et des nouveaux clients."
+      },
+      "de": {
+        "title": "Kundenakquisekosten-Rechner",
+        "description": "Schätzen Sie Akquisekosten aus Marketingausgaben und neuen Kunden."
+      },
+      "pt": {
+        "title": "Calculadora do custo de aquisição de clientes",
+        "description": "Estime o custo de aquisição a partir do gasto em marketing e de novos clientes."
+      },
+      "it": {
+        "title": "Calcolatore del costo di acquisizione cliente",
+        "description": "Stima il costo di acquisizione in base alla spesa marketing e ai nuovi clienti."
+      },
+      "pl": {
+        "title": "Kalkulator kosztu pozyskania klienta",
+        "description": "Oszacuj koszt pozyskania na podstawie wydatków marketingowych i nowych klientów."
+      }
+    }
+  },
+  {
+    "slug": "freelance-salary-equivalent-calculator",
+    "title": "Freelance Salary Equivalent",
+    "category": "Money",
+    "description": "Compare freelance gross income with an employee salary using your assumptions.",
+    "i18n": {
+      "en": {
+        "title": "Freelance Salary Equivalent",
+        "description": "Compare freelance gross income with an employee salary using your assumptions."
+      },
+      "ru": {
+        "title": "Калькулятор эквивалента зарплаты фрилансера",
+        "description": "Сравните валовой доход фрилансера с зарплатой сотрудника по вашим параметрам."
+      },
+      "es": {
+        "title": "Equivalente salarial freelance",
+        "description": "Compara el ingreso bruto freelance con un salario de empleado según tus datos."
+      },
+      "fr": {
+        "title": "Équivalent de salaire freelance",
+        "description": "Comparez le revenu brut freelance à un salaire salarié selon vos hypothèses."
+      },
+      "de": {
+        "title": "Freelance-Gehaltäquivalent",
+        "description": "Vergleichen Sie Freelance-Bruttoeinnahmen mit einem Angestelltengehalt nach Ihren Annahmen."
+      },
+      "pt": {
+        "title": "Equivalente salarial de freelancer",
+        "description": "Compare o rendimento bruto de freelancer com um salário de empregado segundo os seus pressupostos."
+      },
+      "it": {
+        "title": "Equivalente dello stipendio freelance",
+        "description": "Confronta il reddito lordo freelance con uno stipendio da dipendente secondo le tue ipotesi."
+      },
+      "pl": {
+        "title": "Ekwiwalent pensji freelancera",
+        "description": "Porównaj przychód brutto freelancera z pensją pracownika według własnych założeń."
+      }
+    }
+  },
+  {
+    "slug": "monthly-profit-goal-calculator",
+    "title": "Monthly Profit Goal Calculator",
+    "category": "Business",
+    "description": "Work backwards from a desired monthly profit to required revenue.",
+    "i18n": {
+      "en": {
+        "title": "Monthly Profit Goal Calculator",
+        "description": "Work backwards from a desired monthly profit to required revenue."
+      },
+      "ru": {
+        "title": "Калькулятор цели по месячной прибыли",
+        "description": "Рассчитайте необходимую выручку, исходя из желаемой месячной прибыли."
+      },
+      "es": {
+        "title": "Calculadora de objetivo de beneficio mensual",
+        "description": "Calcula los ingresos necesarios a partir del beneficio mensual que deseas."
+      },
+      "fr": {
+        "title": "Calculateur d’objectif de bénéfice mensuel",
+        "description": "Calculez le revenu nécessaire à partir du bénéfice mensuel souhaité."
+      },
+      "de": {
+        "title": "Rechner für monatliches Gewinnziel",
+        "description": "Ermitteln Sie den nötigen Umsatz aus Ihrem gewünschten Monatsgewinn."
+      },
+      "pt": {
+        "title": "Calculadora da meta de lucro mensal",
+        "description": "Calcule a receita necessária a partir do lucro mensal desejado."
+      },
+      "it": {
+        "title": "Calcolatore dell’obiettivo di profitto mensile",
+        "description": "Calcola i ricavi necessari partendo dal profitto mensile desiderato."
+      },
+      "pl": {
+        "title": "Kalkulator miesięcznego celu zysku",
+        "description": "Oblicz wymagany przychód na podstawie oczekiwanego miesięcznego zysku."
+      }
+    }
+  },
+  {
+    "slug": "price-per-deliverable-calculator",
+    "title": "Price Per Deliverable Calculator",
+    "category": "Pricing",
+    "description": "Estimate a price per deliverable from total project value.",
+    "i18n": {
+      "en": {
+        "title": "Price Per Deliverable Calculator",
+        "description": "Estimate a price per deliverable from total project value."
+      },
+      "ru": {
+        "title": "Калькулятор цены за результат",
+        "description": "Оцените цену одного результата работы по общей стоимости проекта."
+      },
+      "es": {
+        "title": "Calculadora de precio por entregable",
+        "description": "Estima el precio por entregable a partir del valor total del proyecto."
+      },
+      "fr": {
+        "title": "Calculateur de prix par livrable",
+        "description": "Estimez le prix par livrable à partir de la valeur totale du projet."
+      },
+      "de": {
+        "title": "Preis-pro-Ergebnis-Rechner",
+        "description": "Schätzen Sie den Preis pro Ergebnis aus dem Gesamtwert des Projekts."
+      },
+      "pt": {
+        "title": "Calculadora de preço por entrega",
+        "description": "Estime o preço por entrega a partir do valor total do projeto."
+      },
+      "it": {
+        "title": "Calcolatore del prezzo per deliverable",
+        "description": "Stima il prezzo per deliverable a partire dal valore totale del progetto."
+      },
+      "pl": {
+        "title": "Kalkulator ceny za rezultat",
+        "description": "Oszacuj cenę za rezultat na podstawie całkowitej wartości projektu."
+      }
+    }
+  },
+  {
+    "slug": "project-deadline-buffer-calculator",
+    "title": "Project Deadline Buffer Calculator",
+    "category": "Time",
+    "description": "Add a schedule buffer to a project deadline.",
+    "i18n": {
+      "en": {
+        "title": "Project Deadline Buffer Calculator",
+        "description": "Add a schedule buffer to a project deadline."
+      },
+      "ru": {
+        "title": "Калькулятор запаса по сроку проекта",
+        "description": "Добавьте резерв времени к сроку проекта."
+      },
+      "es": {
+        "title": "Calculadora de margen de plazo del proyecto",
+        "description": "Añade un margen de tiempo a la fecha límite del proyecto."
+      },
+      "fr": {
+        "title": "Calculateur de marge de délai du projet",
+        "description": "Ajoutez une marge de temps à la date limite du projet."
+      },
+      "de": {
+        "title": "Projektfrist-Pufferrechner",
+        "description": "Fügen Sie der Projektfrist einen Zeitpuffer hinzu."
+      },
+      "pt": {
+        "title": "Calculadora de margem de prazo do projeto",
+        "description": "Adicione uma margem de tempo ao prazo do projeto."
+      },
+      "it": {
+        "title": "Calcolatore del margine sulla scadenza del progetto",
+        "description": "Aggiungi un margine di tempo alla scadenza del progetto."
+      },
+      "pl": {
+        "title": "Kalkulator zapasu terminu projektu",
+        "description": "Dodaj zapas czasu do terminu realizacji projektu."
+      }
+    }
+  }
+]
