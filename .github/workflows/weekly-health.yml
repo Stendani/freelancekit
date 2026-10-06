@@ -10,10 +10,12 @@ permissions:
 
 jobs:
   health:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
       - name: Check live site
         run: |
           BASE="https://freelancekit-b1n.pages.dev"
@@ -21,12 +23,15 @@ jobs:
             echo "Checking $BASE$p"
             curl -fsSL --retry 3 --max-time 30 "$BASE$p" >/dev/null
           done
+
       - name: Run smoke tests
         run: node tests/verify.cjs && node tests/smoke.cjs
+
       - name: Write heartbeat
         run: |
           mkdir -p .autopilot
           date -u +%Y-%m-%dT%H:%M:%SZ > .autopilot/heartbeat.txt
+
       - name: Commit heartbeat
         run: |
           git config user.name "FreelanceKit Health Check"

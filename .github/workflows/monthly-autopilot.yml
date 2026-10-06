@@ -10,28 +10,35 @@ permissions:
 
 jobs:
   autopilot:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
           node-version: 20
+
       - name: Sync tool registry
         env:
           AUTOPILOT_START: "2026-11-01T05:00:00Z"
         run: node scripts/sync-registry.mjs
+
       - name: Publish scheduled tools
         env:
           AUTOPILOT_START: "2026-11-01T05:00:00Z"
         run: node scripts/autopublish.mjs
+
       - name: Rebuild sitemap
         env:
           SITE_URL: "https://freelancekit-b1n.pages.dev"
         run: node scripts/generate-sitemap.mjs
+
       - name: Run full project tests
         run: node tests/verify.cjs && node tests/smoke.cjs
+
       - name: Commit changes when needed
         run: |
           git config user.name "FreelanceKit Autopilot"
