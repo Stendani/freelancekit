@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Free calculators and tools for freelancers: hourly rate, monthly income, project price, invoice total and deadlines.">
+  <title>FreelanceKit — Free Tools for Freelancers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">FreelanceKit</a>
+      <span class="tag">Free tools for freelancers</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">100% free • no sign-up</p>
+      <h1>Simple tools that help freelancers make better decisions.</h1>
+      <p class="hero-copy">Calculate your hourly rate, estimate income, price projects and check deadlines in seconds.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card" id="hourly-rate">
+        <h2>Hourly Rate Calculator</h2>
+        <p>Find the hourly rate you need to reach your income goal.</p>
+        <label>Target monthly income ($)<input id="hr-income" type="number" min="0" step="1" value="3000"></label>
+        <label>Billable hours / month<input id="hr-hours" type="number" min="1" step="1" value="100"></label>
+        <button onclick="hourlyRate()">Calculate</button>
+        <div class="result" id="hr-result">$30.00 / hour</div>
+      </article>
+
+      <article class="card">
+        <h2>Monthly Income Calculator</h2>
+        <p>Estimate monthly income from your hourly rate and billable hours.</p>
+        <label>Hourly rate ($)<input id="mi-rate" type="number" min="0" step="0.01" value="30"></label>
+        <label>Billable hours / month<input id="mi-hours" type="number" min="0" step="1" value="100"></label>
+        <button onclick="monthlyIncome()">Calculate</button>
+        <div class="result" id="mi-result">$3,000.00 / month</div>
+      </article>
+
+      <article class="card">
+        <h2>Project Price Calculator</h2>
+        <p>Turn an estimated workload into a project quote with a buffer.</p>
+        <label>Estimated hours<input id="pp-hours" type="number" min="0" step="1" value="40"></label>
+        <label>Hourly rate ($)<input id="pp-rate" type="number" min="0" step="0.01" value="40"></label>
+        <label>Buffer (%)<input id="pp-buffer" type="number" min="0" step="1" value="15"></label>
+        <button onclick="projectPrice()">Calculate</button>
+        <div class="result" id="pp-result">$1,840.00</div>
+      </article>
+
+      <article class="card">
+        <h2>Invoice Total Calculator</h2>
+        <p>Calculate an invoice total from work, expenses and a discount.</p>
+        <label>Work amount ($)<input id="in-work" type="number" min="0" step="0.01" value="1000"></label>
+        <label>Expenses ($)<input id="in-exp" type="number" min="0" step="0.01" value="50"></label>
+        <label>Discount (%)<input id="in-disc" type="number" min="0" max="100" step="1" value="0"></label>
+        <button onclick="invoiceTotal()">Calculate</button>
+        <div class="result" id="in-result">$1,050.00</div>
+      </article>
+
+      <article class="card">
+        <h2>Deadline Calculator</h2>
+        <p>Find the calendar date after a number of working days.</p>
+        <label>Start date<input id="dl-start" type="date"></label>
+        <label>Working days<input id="dl-days" type="number" min="0" step="1" value="10"></label>
+        <button onclick="deadline()">Calculate</button>
+        <div class="result" id="dl-result">—</div>
+      </article>
+
+      <article class="card card-coming">
+        <span class="pill">Coming next</span>
+        <h2>Freelance Tax Calculator</h2>
+        <p>A future tool will estimate taxes based on country and income.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">FreelanceKit © 2026 — Free tools for freelancers.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
