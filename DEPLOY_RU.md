@@ -9,8 +9,8 @@ GitHub остаётся репозиторием исходников, но ра
 3. **Workers & Pages → Create application → Pages → Import an existing Git repository**. Подключите GitHub и выберите `freelancekit`. Cloudflare поддерживает автоматический deploy из GitHub.
 4. Название проекта: `freelancekit-tools` (если свободно).
 5. Production branch: `main`; Build command: `exit 0`; Build output directory: `.`.
-6. После deploy сайт будет на `https://freelancekit-tools.pages.dev`.
-7. Один раз добавьте сайт в Google Search Console и отправьте `https://freelancekit-tools.pages.dev/sitemap.xml`.
+6. После deploy сайт будет на `https://freelancekit-b1n.pages.dev`.
+7. Один раз добавьте сайт в Google Search Console и отправьте `https://freelancekit-b1n.pages.dev/sitemap.xml`.
 
 ## После этого
 Mac можно выключить. Cloudflare продолжит раздавать сайт, а GitHub Actions будут запускать месячный автопилот и еженедельную проверку.

@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 const root = process.cwd();
-const base = (process.env.SITE_URL || 'https://freelancekit-tools.pages.dev').replace(/\/$/, '');
+const base = (process.env.SITE_URL || 'https://freelancekit-b1n.pages.dev').replace(/\/$/, '');
 const urls = new Set([
   `${base}/`,
   `${base}/tools/`,

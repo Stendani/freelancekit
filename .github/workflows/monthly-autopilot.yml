@@ -28,7 +28,7 @@ jobs:
         run: node scripts/autopublish.mjs
       - name: Rebuild sitemap
         env:
-          SITE_URL: "https://freelancekit-tools.pages.dev"
+          SITE_URL: "https://freelancekit-b1n.pages.dev"
         run: node scripts/generate-sitemap.mjs
       - name: Run full project tests
         run: node tests/verify.cjs && node tests/smoke.cjs

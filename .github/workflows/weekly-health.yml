@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Check live site
         run: |
-          BASE="https://freelancekit-tools.pages.dev"
+          BASE="https://freelancekit-b1n.pages.dev"
           for p in "/" "/tools/" "/tools/invoice-generator/" "/tools/project-price-calculator/" "/about.html" "/privacy.html" "/terms.html" "/sitemap.xml"; do
             echo "Checking $BASE$p"
             curl -fsSL --retry 3 --max-time 30 "$BASE$p" >/dev/null

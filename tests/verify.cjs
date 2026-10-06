@@ -42,7 +42,7 @@ function getEnglishToolContext(){return loadContext('en');}
     }
     assert(!s.includes('github.io'),`${path.relative(root,file)} still contains a GitHub Pages canonical`);
   }
-  const sw=read(path.join(root,'sw.js')); assert(sw.includes("freelancekit-v3.1.0"),'service worker cache version mismatch');
+  const sw=read(path.join(root,'sw.js')); assert(sw.includes("freelancekit-v3.1.1"),'service worker cache version mismatch');
 
   // Load all languages and structural parity.
   const base=getEnglishToolContext();

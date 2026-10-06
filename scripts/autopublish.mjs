@@ -4,7 +4,7 @@ import path from 'path';
 
 const root=process.cwd();
 const repo=process.env.GITHUB_REPOSITORY_NAME || 'freelancekit';
-const base=(process.env.SITE_URL || 'https://freelancekit-tools.pages.dev').replace(/\/$/, '');
+const base=(process.env.SITE_URL || 'https://freelancekit-b1n.pages.dev').replace(/\/$/, '');
 const start=new Date(process.env.AUTOPILOT_START||'2026-11-01T05:00:00Z');
 const now=new Date();
 let months=(now.getUTCFullYear()-start.getUTCFullYear())*12+(now.getUTCMonth()-start.getUTCMonth());

@@ -1,4 +1,4 @@
-const CACHE='freelancekit-v3.1.0';
+const CACHE='freelancekit-v3.1.1';
 const CORE=[
  './index.html',
  './about.html',
@@ -74,5 +74,9 @@ self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promis
 self.addEventListener('fetch',e=>{
  const u=new URL(e.request.url);
  if(e.request.method!=='GET'||u.origin!==location.origin)return;
- e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match(u.pathname.endsWith('/')?'./index.html':'./index.html'))));
+ // Never intercept top-level document navigations. Cloudflare Pages may normalize
+ // /tools/foo/index.html -> /tools/foo/; returning redirects from a service
+ // worker breaks Safari/WebKit navigation. Let the browser follow redirects.
+ if(e.request.mode==='navigate' || e.request.destination==='document') return;
+ e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match(u.href))));
 });
